@@ -4,10 +4,10 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Registration</title>
+        <title>login</title>
     </head>
     <body>
-        <h1>Реєстрація</h1>
+        <h1>Авторизація</h1>
         <form>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required />
@@ -15,21 +15,20 @@
             <label for="password">Пароль:</label>
             <input type="password" id="password" name="password" required />
             <br />
-            <label for="confirm_password">Підтвердження пароля:</label>
+            <label for="remember_password">Запам'ятати пароль</label>
             <input
-                type="password"
-                id="confirm_password"
-                name="confirm_password"
-                required
+                type="checkbox"
+                id="remember_password"
+                name="remember_password"
             />
+            <br />
             <p>
-                <button type="submit">
-                    <a href="login.html">Зареєструватися</a>
-                </button>
+                <button><a href="search.html">Увійти</a></button>
+            </p>
+            <p>
+                Ще не зареєстровані?
+                <button><a href="registration.html">Зареєструватися</a></button>
             </p>
         </form>
-        <p>
-            Вже маєте акаунт? <button><a href="login.html">Увійти</a></button>
-        </p>
     </body>
 </html>
