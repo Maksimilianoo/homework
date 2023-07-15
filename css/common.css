@@ -1,0 +1,599 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Graphik";
+    color: #000;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 1290px;
+}
+
+section {
+    max-width: 1290px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Navigation-section {
+    min-width: 100%;
+    padding: 31px;
+    padding: 24px;
+    border-bottom: rgba(0, 0, 0, 0.5) 1px solid;
+    padding: 35px 0px;
+}
+.Navigation-section #Nav-Bar {
+    min-width: 60%;
+}
+.Navigation-section #Nav-Bar-Links {
+    justify-content: start;
+    gap: 50px;
+    gap: 50px;
+    min-width: 60%;
+}
+.Navigation-section #Nav-Bar-Links a {
+    color: #000;
+    text-decoration: none;
+    font-family: "Graphik";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.Navigation-section #Nav-Bar-Btns {
+    gap: 10px;
+}
+.Navigation-section #Nav-Bar-Btns #Nav-Bar-Btn-1 {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 0px 37px;
+    min-width: -moz-max-content;
+    min-width: max-content;
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Graphik";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45px;
+}
+.Navigation-section #Nav-Bar-Btns #Nav-Bar-Btn-2 {
+    background-color: #ff6336;
+    padding: 0px 23px;
+    min-width: -moz-max-content;
+    min-width: max-content;
+    margin: 0px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Graphik";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+.first-section {
+    padding-top: 18px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.first-section h1 {
+    font-size: 65px;
+    font-weight: 600;
+    margin-top: 14px;
+    line-height: 70px;
+}
+.first-section p {
+    margin-top: 51px;
+    font-size: 25px;
+    line-height: 35px;
+    margin-right: 149px;
+}
+.first-section .first-section-div-buttons {
+    margin-top: 30px;
+    display: inline-flex;
+    padding: 20px 290.016px 0px 0px;
+    align-items: flex-start;
+    gap: 10px;
+}
+.first-section .first-section-div-buttons #first-section-div-button-1 {
+    background: #ff6336;
+}
+.first-section .first-section-div-buttons #first-section-div-button-1 p {
+    min-width: -moz-max-content;
+    min-width: max-content;
+    margin: 0px 43.29px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Graphik";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+}
+.first-section .first-section-div-buttons #first-section-div-button-2 {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 0.1px 29.5px;
+}
+.first-section .first-section-div-buttons #first-section-div-button-2 p {
+    min-width: -moz-max-content;
+    min-width: max-content;
+    margin: 0;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Graphik";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+}
+.first-section h4 {
+    margin-top: 25px;
+    margin-bottom: 35px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+}
+.first-section img {
+    margin-top: 34px;
+    margin-bottom: 45px;
+    margin-right: -8px;
+}
+
+.second-section {
+    background-color: rgb(255, 156, 125);
+    min-width: 100%;
+    align-items: center;
+}
+.second-section div {
+    margin: 10px 75px;
+    max-width: 1290px;
+    align-items: center;
+}
+.second-section div p {
+    margin-top: 98px;
+    text-align: center;
+    font-family: "Graphik";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    max-width: 720px;
+}
+.second-section div div {
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 70px;
+    margin-bottom: 94px;
+    gap: 103px;
+}
+
+.third-section {
+    margin-top: 90px;
+    margin-bottom: 150px;
+    justify-content: center;
+    gap: 250px;
+    padding: 0px 20px;
+}
+.third-section .card {
+    gap: 138px;
+    align-items: center;
+}
+.third-section h1 {
+    font-family: "Graphik";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+}
+.third-section p {
+    font-family: "Graphik";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px 0px;
+}
+.third-section p a {
+    text-decoration: underline;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.third-section a {
+    font-family: "Graphik";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.fourth-section {
+    background-color: #fff8e4;
+    min-width: 100%;
+    align-items: center;
+}
+.fourth-section .section-4-box {
+    max-width: 1290px;
+    padding-top: 120px;
+    padding-bottom: 90px;
+    gap: 58px;
+}
+.fourth-section .section-4-box h1 {
+    text-align: center;
+    font-family: "Graphik";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+}
+.fourth-section .section-4-grid {
+    min-width: 1250px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 57px 110px;
+    padding: 0 20px 57px;
+}
+.fourth-section .card {
+    max-width: 330px;
+    min-height: 294px;
+    align-items: center;
+    justify-content: space-between;
+}
+.fourth-section .card img {
+    margin-top: 21px;
+}
+.fourth-section .card h2 {
+    text-align: center;
+    font-family: "Graphik";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+.fourth-section .card p {
+    text-align: center;
+    font-family: "Graphik";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 3px;
+}
+.fourth-section .card p a {
+    text-decoration: underline;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.fifth-section {
+    align-items: center;
+    gap: 25px;
+    padding-top: 154px;
+    padding-bottom: 150px;
+}
+.fifth-section h1 {
+    font-family: "Graphik";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+}
+.fifth-section .card {
+    min-height: 609px;
+    justify-content: space-between;
+    text-align: left;
+}
+.fifth-section .card h2 {
+    font-family: "Graphik";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+}
+.fifth-section .card p {
+    margin-right: 30px;
+    font-family: "Graphik";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.fifth-section .card a {
+    text-decoration: underline;
+}
+.fifth-section .card img {
+    max-width: 180px;
+}
+
+.sixth-section {
+    background-color: rgb(201, 232, 242);
+    min-width: 100%;
+    align-items: center;
+}
+.sixth-section .section-6-box {
+    justify-content: flex-end;
+    max-width: 1290px;
+    padding-top: 43px;
+    padding-bottom: 150px;
+    gap: 85px;
+}
+.sixth-section .section-6-box p {
+    margin-top: 20px;
+    margin-bottom: 23px;
+    font-family: "Graphik";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+.sixth-section .section-6-box h4 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 7px;
+}
+.sixth-section .section-6-box div img {
+    margin-bottom: 15px;
+}
+
+.seventh-section {
+    background-color: rgb(218, 188, 152);
+    min-width: 100%;
+    align-items: center;
+}
+.seventh-section .section-7-box {
+    max-width: 1290px;
+    justify-content: space-between;
+    padding-bottom: 84px;
+}
+.seventh-section .section-7-box #MainText {
+    margin-top: 70px;
+    padding-top: 20px;
+    gap: 67px;
+    max-width: 809px;
+}
+.seventh-section .section-7-box #MainText h2 {
+    margin-top: 47px;
+    padding-bottom: 31px;
+    font-family: "Graphik";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+}
+.seventh-section .section-7-box #MainText img {
+    margin-left: -20px;
+}
+.seventh-section .section-7-box #companies {
+    margin-top: 80px;
+    border-left: #000 solid 1px;
+    gap: 70px;
+    padding-left: 70px;
+    padding-right: 62px;
+    max-width: 481px;
+}
+.seventh-section .section-7-box #companies div {
+    margin-top: 30px;
+    margin-bottom: 22px;
+    max-width: 116px;
+    justify-content: space-between;
+}
+.seventh-section .section-7-box #companies div p {
+    min-width: -moz-max-content;
+    min-width: max-content;
+    font-family: "Graphik";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.75px;
+}
+
+.eightth-section {
+    align-items: center;
+}
+.eightth-section h1 {
+    margin-top: 169px;
+    max-width: 790px;
+    text-align: center;
+    font-family: "Graphik";
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 75px;
+}
+.eightth-section p {
+    max-width: 540px;
+    text-align: center;
+    font-family: Graphik LC TT;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.eightth-section img {
+    margin-top: 25px;
+}
+.eightth-section a {
+    background-color: #ff6336;
+    padding: 0px 20px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-family: "Graphik";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.nineth-section {
+    background-color: #ff9c7d;
+    min-width: 100%;
+    margin-top: 120px;
+    align-items: center;
+}
+.nineth-section .section-9-box {
+    align-items: center;
+    max-width: 1290px;
+}
+.nineth-section .section-9-box h1 {
+    max-width: 785px;
+    padding-top: 120px;
+    text-align: center;
+    font-family: "Graphik";
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 75px;
+}
+.nineth-section .section-9-box p {
+    margin-top: 30px;
+    text-align: center;
+    font-family: "Graphik";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.nineth-section .section-9-box a {
+    padding: 0px 40px;
+    text-decoration: none;
+    margin-top: 55px;
+    margin: 160px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-family: "Graphik";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.footer-section {
+    min-width: 100%;
+    padding-top: 92px;
+    padding-bottom: 48px;
+    background-color: rgb(238, 238, 238);
+    align-items: center;
+}
+.footer-section .footer-box {
+    max-width: 1290px;
+}
+.footer-section .footer-box #Info {
+    justify-content: space-between;
+    gap: 70px;
+    padding-bottom: 95px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.footer-section .footer-box #Info div {
+    gap: 34px;
+    max-width: 850px;
+}
+.footer-section .footer-box #Info div div {
+    gap: 15px;
+    max-width: 180px;
+}
+.footer-section .footer-box #Info div div h2 {
+    font-family: "Graphik";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 6px;
+}
+.footer-section .footer-box #Info div div a {
+    text-decoration: none;
+    font-family: "Graphik";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+}
+.footer-section .footer-box #Info #MainDivInfoFooter {
+    max-width: 370px;
+}
+.footer-section .footer-box #Info #MainDivInfoFooter h1 {
+    font-family: "Graphik";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+}
+.footer-section .footer-box #Info #MainDivInfoFooter p {
+    margin-top: 11px;
+    font-family: "Graphik";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.footer-section .footer-box #Info #MainDivInfoFooter a {
+    margin-top: 15px;
+    font-family: "Graphik";
+    text-decoration: none;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+.footer-section .footer-box #Info #MainDivInfoFooter img {
+    margin-top: 28px;
+    max-width: 300px;
+}
+.footer-section .footer-box #Info #MainDivInfoFooter #Image2FooterInfo {
+    margin-top: 31px;
+    max-width: 80px;
+}
+.footer-section .footer-box #Licenses {
+    margin-top: 48px;
+    max-height: 30px;
+    max-width: 1290px;
+}
+.footer-section .footer-box #Licenses img {
+    max-width: 90px;
+    max-height: 21px;
+    margin-top: 5px;
+    margin-bottom: -4px;
+}
+.footer-section .footer-box #Licenses h4 {
+    margin-left: 14px;
+    margin-top: 5px;
+    margin-bottom: -5px;
+    max-width: 300px;
+    font-family: "Graphik";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+}
+.footer-section .footer-box #Licenses div {
+    margin-left: 700px;
+}
+.footer-section .footer-box #Licenses div h4 {
+    margin: 0;
+} /*# sourceMappingURL=common.css.map */
