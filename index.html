@@ -44,7 +44,6 @@
         <div id="contacts-container"></div>
 
         <script>
-            // Функція для отримання випадкового кольору
             function getRandomColor() {
                 const symbols = [
                     "0",
@@ -72,7 +71,6 @@
                 return color;
             }
 
-            // Функція для отримання списку контактів
             async function getContacts() {
                 try {
                     const response = await fetch(
@@ -85,7 +83,6 @@
                 }
             }
 
-            // Функція для створення HTML-елементу картки контакта
             function createContactCard(contact) {
                 const { name, email, phone, address } = contact;
                 const initials = name
@@ -135,7 +132,6 @@
                 return cardContainer;
             }
 
-            // Отримуємо список контактів та виводимо їх на сторінку
             async function displayContacts() {
                 const contactsContainer =
                     document.getElementById("contacts-container");
