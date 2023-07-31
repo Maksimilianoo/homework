@@ -1,13 +1,7 @@
-/* .container {
-    position: relative;
-} */
-
 .cloud_1 {
     position: relative;
     top: -10%;
-    z-index: 9999;
-    animation: fly1 linear 5s;
-    animation-iteration-count: infinite;
+    animation: fly1 linear 5s infinite;
 }
 
 @keyframes fly1 {
@@ -23,8 +17,7 @@
 .cloud_2 {
     position: relative;
     top: -20%;
-    animation: fly2 linear 8s;
-    animation-iteration-count: infinite;
+    animation: fly2 linear 8s infinite;
 }
 @keyframes fly2 {
     from {
@@ -39,8 +32,7 @@
 .cloud_3 {
     position: relative;
     top: -30%;
-    animation: fly3 linear 6s;
-    animation-iteration-count: infinite;
+    animation: fly3 linear 6s infinite;
 }
 @keyframes fly3 {
     from {
@@ -53,18 +45,92 @@
 }
 
 .sun {
-    animation: sun_fly linear 10s;
-    animation-iteration-count: infinite;
-    top: 50%;
+    animation: sun linear 15s infinite;
+    top: 60%;
 }
-@keyframes sun-fly {
+@keyframes sun {
     0% {
+        transform: translateY(0);
         margin-left: 0%;
+    }
+    10% {
+        transform: translateY(-40%);
+        margin-left: 10%;
+    }
+    20% {
+        transform: translateY(-60%);
+        margin-left: 20%;
+    }
+    30% {
+        transform: translateY(-100%);
+        margin-left: 30%;
+    }
+    40% {
+        transform: translateY(-125%);
+        margin-left: 40%;
     }
     50% {
+        transform: translateY(-150%);
         margin-left: 50%;
     }
+    60% {
+        transform: translateY(-175%);
+        margin-left: 60%;
+    }
+    70% {
+        transform: translateY(-200%);
+        margin-left: 70%;
+    }
+    80% {
+        transform: translateY(-200%);
+        margin-left: 80%;
+    }
+    90% {
+        transform: translateY(-150%);
+        margin-left: 90%;
+    }
     100% {
-        margin-left: 0%;
+        transform: translateY(-100%);
+        margin-left: 100%;
+    }
+}
+
+.container {
+    animation: night linear 15s infinite;
+}
+
+@keyframes night {
+    0% {
+        color: rgb(255, 255, 255);
+    }
+    10% {
+        color: rgb(255, 255, 255);
+    }
+    20% {
+        color: rgb(255, 255, 255);
+    }
+    30% {
+        color: rgb(0, 0, 0);
+    }
+    40% {
+        color: rgb(255, 255, 255);
+    }
+    50% {
+        color: rgb(255, 255, 255);
+    }
+    60% {
+        color: rgb(255, 255, 255);
+    }
+    70% {
+        color: rgb(255, 255, 255);
+    }
+    80% {
+        color: rgb(255, 255, 255);
+    }
+    90% {
+        color: rgb(55, 55, 55);
+    }
+    100% {
+        color: rgb(0, 0, 0);
     }
 }
