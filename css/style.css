@@ -1,0 +1,138 @@
+@import url("./basic.css");
+
+.bg-beige {
+    background-color: var(--color-beige);
+}
+
+.bg-red {
+    background-color: var(--color-red);
+    color: #fff;
+}
+.bg-lightblue {
+    background-color: var(--basic-lightblue);
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-title {
+    font-size: 48px;
+    color: var(--color-red);
+    margin-bottom: 40px;
+}
+.clearfix {
+    clear: both;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.logo {
+    font-family: "Courgette", cursive;
+    font-size: 32px;
+    float: left;
+    margin-right: 80px;
+}
+.text-green {
+    color: #62bfad;
+}
+
+.navigation {
+    padding-top: 11px;
+}
+.nav-link + .nav-link {
+    margin-left: 20px;
+}
+
+.first-section {
+    padding-top: 200px;
+    padding-bottom: 170px;
+    font-family: "Limelight", cursive;
+    text-align: center;
+}
+.main-title {
+    font-size: 48px;
+    max-width: 740px;
+}
+
+.about-section {
+    padding-top: 95px;
+    padding-bottom: 80px;
+}
+.text-content,
+.image-content {
+    width: 50%;
+}
+.text-content {
+    background: #e5e5e5;
+    border-radius: 8px 0px 0px 8px;
+    padding: 24px;
+    float: left;
+    min-height: 348px;
+}
+
+.text-content .card-title {
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+.text-content .description {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.image-content {
+    float: right;
+}
+
+.features-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.card {
+    display: inline-block;
+    max-width: 322px;
+    padding: 24px;
+    border: 2px solid #e5e5e5;
+    border-radius: 8px;
+}
+.card img {
+    display: block;
+    margin-bottom: 24px;
+}
+
+.card .card-title {
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+.card .description {
+    margin-bottom: 24px;
+}
+
+.card .link {
+    text-decoration-line: underline;
+    color: var(--color-red);
+}
+.card + .card {
+    margin-left: 68px;
+}
+
+.footer {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+.copy {
+    margin-bottom: 24px;
+}
+.social-link + .social-link {
+    margin-left: 1rem;
+}
+.social-link:hover svg path {
+    transition: all linear 0.2s;
+}
+.social-link:hover svg path {
+    fill: var(--color-red);
+}
